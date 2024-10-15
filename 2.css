@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+     body {
+     
+        font-family: Arial, sans-serif;
+        background-color: rgb(212, 207, 207);
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #4d9feb;
+        /* background-color: #5ea4e5; */
+
+        padding: 15px 20px;
+        
+   
+    }
+    a{
+        color: #ffffff;
+        margin: 7px;
+        text-decoration: none;
+    }
+    
+    .logo {
+        color: white;
+        font-size: 24px;
+        margin-left:5px ;    }
+    .container{
+        background-color:#f2ecec;
+        border-radius: 10px;
+        width: 60%;
+        height: 300px;
+        padding: 30px;
+        margin: 1% 0px 0px 16%;
+        box-shadow: #f3ebeb;
+       
+        
+      
+    }
+    .heading{
+        margin:2% 0 0 16%;
+
+    }
+    input[type="text"],
+        input[type="email"],
+        input[type="date"] {
+            width: 90%;
+            padding: 10px;
+            margin: 10px;
+            border: 1px #f5f3f3;
+            border-radius: 4px;
+        }
+        .card-container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2%;
+        }
+        .card{
+            width: 325px;
+            background-color: #7baddb;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow:0px 2px 4px rgba(0,0,0,0.2) ;
+            margin: 20px;
+        
+        }
+        .card img{
+            width: 320px;
+            height: 200px;
+            padding: 15px 15px 0px 15px;
+            border-radius: 5%;
+        }
+        .card-content{
+            padding: 16px;
+        }
+        
+        .card-content h3{
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        .card-content p{
+            color: #666;
+            font-size: 15px;
+            /* line-height: 1.3; */
+        }
+        footer{
+            background-color: rgb(16, 15, 15);
+            color: #f0f0f0;
+            height: 100px;
+            padding: 50px 10px 50px 10px;
+        }
+
+               
+            
+        
+    
+    
+    
